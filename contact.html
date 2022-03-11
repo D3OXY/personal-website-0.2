@@ -78,7 +78,11 @@
                 console.log('Name: ' + Name.value);
                 console.log('Email: ' + email.value);
                 console.log('Message: ' + message.value);
-                alert("Message Send Successfully!");
+                fetch('http://144.24.119.224:3000')
+                    .then(res => res.json())
+                    .then(data => {
+                        alert(data)
+                    })
                 // document.location.reload(true)
             }
         </script>
