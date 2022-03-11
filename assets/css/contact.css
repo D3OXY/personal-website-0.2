@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Montserrat&display=swap');
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: -moz-linear-gradient(90deg, #002853 0%, #040c18 100%);
+  
+    background: -webkit-linear-gradient(90deg, #002853 0%, #040c18 100%);
+  
+    background: -o-linear-gradient(90deg, #002853 0%, #040c18 100%);
+  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040C18', endColorstr='#002853', GradientType=0 );
+  
+    background: -ms-linear-gradient(90deg, #002853 0%, #040c18 100%);
+  
+    background: linear-gradient(90deg, #002853 0%, #040c18 100%); 
+}
+.contact-box{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    bottom: 1px;
+    margin-top: 40px;
+    width: 550px;
+    /* height: 500px; */
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+.contact-box h2{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-group{
+    margin-top: 20px;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
+
+.input{
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100%;
+    height: 40px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+.submit-btn{
+    font-size: 1rem;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px white solid;
+    width: 80px;
+    height: 40px;
+}
+.submit-btn:hover{
+    color: black;
+    background-color: white;
+}

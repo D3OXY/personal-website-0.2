@@ -1,0 +1,45 @@
+.header{
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+    /* background-color: gray; */
+    backdrop-filter: blur(5px);
+    border: 1px white solid;
+    border-radius: 40px;
+    text-align: center;
+    width: 475px;
+    padding: 5px 2.25rem;
+}
+.navbar-items{
+    text-align: center;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Montserrat&display=swap');
+.navbar-items a {
+    font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: white
+}
+.navbar-items a:hover {
+    color: #00C6BE;
+}
+.navbar-items-active{
+    color: #00C6BE !important;
+}
+@media screen and (max-width: 600px) {
+    .header {
+      padding: 15px 1rem;
+      width: 95%;
+    }
+    .navbar-items {
+      padding: 0.1rem;
+    }
+    .navbar-items a {
+      font-size: 10px;
+    }
+}

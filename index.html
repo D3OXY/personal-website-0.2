@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEOXY | Home</title>
+    <!-- Font Awsome -->
+    <link href="/assets/icons/css/all.css" rel="stylesheet">
+    <!-- Styling -->
+    <link rel="stylesheet" href="/assets//css/global.css">
+    <link rel="stylesheet" href="/assets/css/background.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="navbar-items">
+            <a href="/index.html" class="navbar-items-active">
+                <i class="fa fa-solid fa-house"></i>
+                <p>Home</p>
+            </a>
+            <a href="/about.html">
+                <i class="fa-solid fa-question"></i>
+                <p>About</p>
+            </a>
+            <a href="/project.html">
+                <i class="fa-solid fa-list-check"></i>
+                <p>Projects</p>
+            </a>
+            <a href="/skills.html">
+                <i class="fa-solid fa-brain"></i>
+                <p>Skills</p>
+            </a>
+            <a href="/services.html">
+                <i class="fa-solid fa-ethernet"></i>
+                <p>Services</p>
+            </a>
+            <a href="/contact.html">
+                <i class="fa-solid fa-address-book"></i>
+                <p>Contact</p>
+            </a>
+        </div>
+    </header>
+    <!-- Home Page Content -->
+    <div class="home-container background">
+        <i class="logo space-between fa-brands fa-dashcube"></i>
+        <h2 class="space-between title">Hi There! I'm <span class="name-change"></span></h2>
+        <p class="space-between"><span class="desc"></span></p>
+        <div class="space-between icons-container">
+            <a href="">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-wallet"></i>
+            </a>
+            <a href="/links.html">
+                <i class="fa-solid fa-globe"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="/assets/js/typed.js"></script>
+    <script>
+        var nameChange = new Typed('.name-change', {
+            strings: [
+                'Ishan^1000',
+                'Deoxy^1000'
+            ],
+            typeSpeed: 200,
+            backSpeed: 50,
+            loop: true,
+            cursorChar: '|',
+            autoInsertCss: true,
+            smartBackspace: true,
+        });
+        var description = new Typed('.desc', {
+            strings: [
+                'A Tech Enthusiast, who plays stoopid videogames and codes useless programs.^1000',
+                'I am a Full Stack Web Developer,^1000',
+                'UI/UX Designer,^1000',
+                'Discord Bot Developer,^1000',
+                'Game Server Developer, Icluding Minecraft, GTA, etc...^1000',
+                'And I am Capable of Configuring/Managing Game Panels, Billing Softwares and Ecommerce platforms such as,^1000',
+                'Pterodactyl, WHMCS, Shopify, HostBill, Etc...^1000',
+                'Checkout Other Pages If You Want To Know More!^1000',
+            ],
+            typeSpeed: 50,
+            backSpeed: 0,
+            loop: false,
+            cursorChar: '|',
+            autoInsertCss: true,
+            smartBackspace: true,
+        });
+    </script>
+</body>
+
+</html>
