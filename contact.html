@@ -82,7 +82,8 @@
                 fetch('https://app.deoxy.tech')
                     .then(res => res.json())
                     .then(data => {
-                        alert(data)
+                        alert(data) ? "" : location.reload();
+                        console.log(data)
                     })
                 // document.location.reload(true)
             }
