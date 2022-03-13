@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
     <title>Deoxy | Contact</title>
     <!-- Font Awsome -->
     <link href="/assets/icons/css/all.css" rel="stylesheet">
@@ -79,7 +79,7 @@
                 console.log('Name: ' + Name.value);
                 console.log('Email: ' + email.value);
                 console.log('Message: ' + message.value);
-                fetch('http://144.24.119.224:3000')
+                fetch('https://app.deoxy.tech')
                     .then(res => res.json())
                     .then(data => {
                         alert(data)
