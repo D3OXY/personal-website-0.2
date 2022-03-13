@@ -27,6 +27,25 @@
 .space-between{
     padding-bottom: 20px;
 }
+.home-btn-container{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.home-btn{
+    width: 130px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.home-btn:hover{
+    color: black;
+    background-color: white;
+}
 .icons-container{
     width: 300px;
     justify-content: space-between;
@@ -44,4 +63,10 @@
 }
 .desc{
     font-family: 'Fredoka', sans-serif;
+}
+@media (max-width: 400px) {
+    .icons-container{
+        position: absolute;
+        bottom: 3px;
+    }
 }
